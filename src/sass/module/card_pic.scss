@@ -1,0 +1,27 @@
+.card__pic--1 {
+    @include card__pic();
+    background-image: url("https://images-na.ssl-images-amazon.com/images/I/7183X1qkVFL._SL1500_.jpg");
+
+
+
+}
+
+.card__pic--2 {
+    @include card__pic();
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/b/b6/Jaden_Smith_%E2%80%93_The_Sunset_Tapes-_A_Cool_Tape_Story.png");
+
+
+}
+
+.card__pic--3 {
+    @include card__pic();
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/0/04/Juice_Wrld_-_Death_Race_for_Love.png");
+
+
+}
+
+.card__pic--4 {
+    @include card__pic();
+    background-image: url("https://scontent-yyz1-1.cdninstagram.com/vp/8b578b2defa110daafddef75228c9296/5D87ACDD/t51.2885-15/sh0.08/e35/s640x640/61767915_1089376224593258_8050289449282982361_n.jpg?_nc_ht=scontent-yyz1-1.cdninstagram.com");
+
+}

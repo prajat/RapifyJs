@@ -1,0 +1,44 @@
+.sidebar {
+    background-color: $secondarycolor;
+    font-family: inherit;
+    height: 80%;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 83;
+    border-right: 4px solid black;
+    box-shadow: 0.3rem 0.3rem 1rem black;
+
+    &__search {
+        margin-top: 20%;
+        margin-left: 10%;
+        margin-right: 10%;
+        cursor: pointer;
+        height: 30px;
+        border: 2px solid $tertiarycolor;
+        background-color: $primarycolor;
+
+    }
+
+    &__nav {
+        margin-left: -40px;
+        display: flex;
+        height: 40%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+
+        &__items {
+            margin: 0;
+        }
+
+        &__link {
+            font-size: 18px;
+            cursor: pointer;
+            transition: 0.1s ease-in-out;
+
+        }
+    }
+
+}

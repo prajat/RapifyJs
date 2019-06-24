@@ -1,0 +1,38 @@
+.header {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 10%;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    z-index: 1; //for restrictin growing image over our header   
+    align-items: center;
+    justify-content: space-around;
+
+    &__logo {
+        width: 30%;
+        height: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+        &__img {
+            height: 80%;
+            width: 12%;
+            transition: 1s ease-in-out;
+
+        }
+
+        &__text {
+            color: white;
+            margin-left: 5%;
+            font-size: 2rem;
+            font-weight: 900;
+            letter-spacing: -0.02em;
+            line-height: 1.2;
+        }
+
+    }
+
+
+}

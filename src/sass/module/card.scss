@@ -1,0 +1,28 @@
+.card {
+    @include card();
+    background-color: rgba(0, 0, 0, 0.4);
+
+    &__album {
+        @include card__album();
+
+        &__name {
+            @include album__name();
+        }
+
+        &__description {
+            @include album__description();
+
+            p {
+                font-size: 14px;
+                margin: 0;
+            }
+        }
+    }
+
+    &__audio {
+        margin: 40px 0 0 0;
+        height: 25%;
+
+    }
+
+}

@@ -1,0 +1,17 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    width: 35%;
+    height: 100%;
+
+    &__items {
+        margin-left: 3%;
+    }
+
+    &__link {
+        cursor: pointer;
+        font-size: 20px;
+        font-weight: 400;
+        transition: 0.1s ease-in-out;
+    }
+}
