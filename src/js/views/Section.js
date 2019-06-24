@@ -13,7 +13,6 @@ export const section =()=>{
                 <Sidebar />
 
                 <div className="main-container__content">
-
                     <Cards />
                 </div>
 
