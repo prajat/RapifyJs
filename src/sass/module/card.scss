@@ -2,6 +2,9 @@
     @include card();
     background-color: rgba(0, 0, 0, 0.4);
     transition: 0.5s ;
+    &:nth-child(2n){
+        flex-direction: row-reverse;
+    }
 
     &__album {
         @include card__album();
@@ -23,7 +26,7 @@
     &__audio {
         margin: 40px 0 0 0;
         height: 25%;
-        text-decoration: none;
+        outline:none;
 
     }
 
