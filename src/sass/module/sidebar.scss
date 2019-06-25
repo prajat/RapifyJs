@@ -1,5 +1,5 @@
 .sidebar {
-    background-color: $secondarycolor;
+    background-color:rgba(0,0,0,0.7);
     font-family: inherit;
     height: 80%;
     width: 15%;
@@ -9,6 +9,8 @@
     top: 82;
     border-right: 4px solid black;
     box-shadow: 0.3rem 0.3rem 1rem black;
+    
+
 
     &__search {
         margin-top: 20%;
@@ -16,8 +18,8 @@
         margin-right: 10%;
         cursor: pointer;
         height: 30px;
-        border: 2px solid $tertiarycolor;
-        background-color: $primarycolor;
+        border: 1px solid $tertiarycolor;
+        background-color: #B7DAB0;
 
     }
 

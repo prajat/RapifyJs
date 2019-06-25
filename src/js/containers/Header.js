@@ -4,8 +4,7 @@ import { Fragment } from 'react';
 export class Header extends Component{
     constructor(props){
         super(props);
-
-
+        
     }
 
     render(){
@@ -14,7 +13,7 @@ export class Header extends Component{
             <Fragment>
                 <header className="header">
                     <div className="header__logo">
-                        <img className="header__logo__img" src="./assets/images/logo.png" /> 
+                        <img className="header__logo__img" src="../src/assets/images/logo.png" /> 
                         <h1 className="header__logo__text">Rapify</h1>
                     </div>
 

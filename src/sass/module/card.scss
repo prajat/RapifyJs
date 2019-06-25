@@ -1,6 +1,7 @@
 .card {
     @include card();
     background-color: rgba(0, 0, 0, 0.4);
+    transition: 0.5s ;
 
     &__album {
         @include card__album();
